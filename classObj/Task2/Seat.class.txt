@@ -1,0 +1,26 @@
+package TicketBooking;
+
+class Show{
+	int no_of_Seats;
+	int no_of_SeatsAvailible;
+	int showTime;
+	String filmName;
+	Show(int showTime,String filmName){
+		this.no_of_Seats = 120;
+		this.no_of_SeatAvailible = 120;
+		this.showTime = showTime;
+		this.filmName = fileName;		
+	}
+	public int getno_of_seatsAvailible(){
+		return this.no_of_Seats;
+	}
+	public int getShowTime(){
+		return this.showTime;
+	}
+	public String filmName(){
+		return this.fileName;
+	}
+	public void setNoOfSeatsAvailible(int noOfSeats){
+		this.no_of_SeatsAvailible -= noOfSeats;
+	}
+}
